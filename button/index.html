@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="increase()">Add</button>
+    <button onclick="decrease()">Subtract</button>
+    <div id='number'></div>
+    <form id="fm">
+        <label for="name">Add to List</label>
+        <input type="text" name="name" id="name" autocomplete="off">
+        <input type="button" value="Submit" onclick="putInDiv()">
+        <label for="named">Delete From List</label>
+        <input type="text" name="named" id="named" autocomplete="off">
+        <input type="button" value="Delete" onclick="getOutDiv()">
+    </form>
+    <div id='display'><ul></ul></div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

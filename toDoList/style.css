@@ -1,0 +1,33 @@
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+header, form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button{
+    border: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: lightskyblue;
+    border-radius: 5px 0 0 5px;
+}
+
+form input:active{
+    border : none;
+}
+
+form button{
+    background-color: lightsteelblue;
+    border-radius: 0 5px 5px 0;
+    transition: 0.5s;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: darkblue;
+    color: white;
+}

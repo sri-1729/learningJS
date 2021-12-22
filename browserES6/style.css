@@ -1,0 +1,13 @@
+#image{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 20px;
+}
